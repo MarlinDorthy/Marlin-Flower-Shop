@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Flower Shop</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-text">
+            <h1>Bloom Your World</h1>
+            <p>Fresh flowers delivered to your doorstep</p>
+            <button id="shopNowBtn">Shop Now</button>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>We are passionate about flowers and committed to delivering the best floral arrangements for all occasions.</p>
+        <div class="about-images">
+            <img src="arrange.jpg" alt="Flower Arrangement">
+            <img src="bouquet.jpg" alt="Flower Bouquet">
+        </div>
+    </section>
+
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Wedding Bouquets</h3>
+                <p>Elegant and beautiful bouquets for your special day.</p>
+            </div>
+            <div class="service-item">
+                <h3>Corporate Events</h3>
+                <p>Stylish floral arrangements for corporate events and meetings.</p>
+            </div>
+            <div class="service-item">
+                <h3>Customized Arrangements</h3>
+                <p>Personalized floral arrangements to suit any occasion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Flower Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
